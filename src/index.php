@@ -30,3 +30,17 @@ function cesar($string, $nivel) {
     }
     return $r;
 }
+
+function cesar_ascii($ut, $cam) {
+    $txt = $ut;
+    $ftxt = '';
+    $v = str_split($txt);
+    $len = strlen($txt);
+
+    for ($g = 0; $g <= $len; $g++) {
+        $c = ord(@$v[$g]) + $cam;
+        $ftxt = $ftxt.chr($c);
+    }
+
+    return $ftxt;
+}
