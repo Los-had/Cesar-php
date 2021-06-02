@@ -48,7 +48,7 @@
  Como você pode ver é muito simples! Para decodificar um valor basta que sua chave seja negativa.
 
  ### Como Baixar?
- Para baixar esta aplicação [Clique Aqui]() ***Não está funcionando***. Após você efetuar o download adicione a pasta ``Cesar-php`` na pasta principal do seu projeto. Depois disso entre no arquivo onde deseja usar essas funções e adicione as funções aos seu projeto assim: 
+ Para baixar esta aplicação [Clique Aqui](). Após você efetuar o download adicione a pasta ``./Cesar-php`` na pasta principal do seu projeto. Depois disso entre no arquivo onde deseja usar essas funções e adicione as funções aos seu projeto assim: 
  ```
  <?php 
  
