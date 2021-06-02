@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main.content pre.darker{
+    background-color: lightgray;
+    font-family: consolas, Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+main.content{
+    border: 3px 3px;
+    border-radius: 5px 5px;
+    border-color: lightgray;
+    display: inline-block;
+}
