@@ -18,10 +18,15 @@
     <nav class="menu light-blue">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Downloads</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#d">Downloads</a></li>
+          <li><a href="#contatos">Contatos</a></li>
         </ul>
       </nav>
+      <br>
+      <input type="search" name="proc" id="proc" style="width: 200px; margin-left: 25px;" placeholder="Procurar"> <button class="btn-floating light-blue"><i class="fa fa-search"></i></button>
+      <br>
+      <hr>
       <main class="content s12 m6 push-m3 light" style="margin-left: 75px;">
           <h3>Cesar-php</h3>
           <p>criptografia na cifra de César apenas com pequenas funções.</p>
@@ -32,7 +37,7 @@
  
             // Isso é um exemplo de como deve ser usado 
            
-            require_once 'Cesar-php/src/index.php'; 
+            require_once './index.php'; 
            
             # Função 1
             echo cesar_ascii('a', 3); 
@@ -52,7 +57,7 @@
  
             // Isso é um exemplo de como deve ser usado 
            
-            require_once 'Cesar-php/src/index.php';
+            require_once './index.php';
            
             # Função 1
             echo cesar_ascii('a', -3); 
@@ -65,13 +70,27 @@
           </pre>
           <p>Como você pode ver é muito simples! Para decodificar um valor basta que sua chave seja negativa.</p>
           <h5>Como Baixar?</h5>
-          <p>Para baixar esta aplicação <a href="">Clique Aqui</a> Após você efetuar o download adicione a pasta <code>./Cesar-php</code> na pasta principal do seu projeto. Depois disso entre no arquivo onde deseja usar essas funções e adicione as funções aos seu projeto assim:</p>
+          <p>Para baixar esta aplicação <a href="">Clique Aqui</a> Após você efetuar o download adicione o arquivo <code>./index.php</code> na pasta principal do seu projeto. Depois disso entre no arquivo onde deseja usar essas funções e adicione as funções aos seu projeto assim:</p>
           <pre class="darker">
           &lt;?php 
  
-          require_once 'Cesar-php/src/index.php'; 
+          require_once './index.php'; 
           </pre>
           <p>Pronto! Já pode utlizar todas as funções disponíveis.</p>
+      </main>
+      <br><hr><br>
+      <h5 id="d" style="margin-left: 75px;">Downloads</h5>
+      <br>
+      <main class="content s12 m6 push-m3 light" style="margin-left: 75px;">
+        <p>Clique no Botão abaixo para iniciar o download do programa</p>
+        <button class="btn red"><a href="../docs/../src/index.php" download="index.php" style="color: white;">Download php version/64bits <i class="fa fa-download"></i></a></button><br>
+      </main>
+      <br>
+      <hr>
+      <br>
+      <h5 id="sobre" style="margin-left: 75px;">Sobre</h5>
+      <main class="content s12 m6 push-m3 light" style="margin-left: 75px;">
+        <p>Eu criei este programa pois quando aprendi o que era e como funciona a cifra de César queria fazer uso dela no php, porém não achei nenhum tutorial no youtube e em fóruns. Então fiz a minha própria solução e ainda publiquei em forma de programa para os outros não terem esse problema que encontrei ao utilizar a cifra de César no php. E fico feliz de ajudar alguém se possível.</p>
       </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

@@ -12,3 +12,26 @@ main.content{
     border-color: lightgray;
     display: inline-block;
 }
+
+main.content button.btn{
+    width: 325px;
+    height: 40px;
+    padding: 3px 3px;
+}
+
+main.content button.btn:hover{
+    animation-name: buttonanimation;
+    animation-duration: 1s;
+}
+
+@keyframes buttonanimation{
+    50% {
+        background-image: linear-gradient(to left, red, darkred);
+    }
+    70% {
+        background-image: linear-gradient(to right, red, darkred);
+    }
+    100% {
+        background-color: darkred;
+    }
+}

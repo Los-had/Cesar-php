@@ -11,7 +11,7 @@
  
  // Isso é um exemplo de como deve ser usado
 
- require_once 'Cesar-php/src/index.php';
+ require_once './index.php';
 
  # Função 1
  echo cesar_ascii('a', 3); 
@@ -33,7 +33,7 @@
  
  // Isso é um exemplo de como deve ser usado
 
- require_once 'Cesar-php/src/index.php';
+ require_once './index.php';
 
  # Função 1
  echo cesar_ascii('a', -3); 
@@ -52,7 +52,7 @@
  ```
  <?php 
  
- require_once 'Cesar-php/src/index.php';
+ require_once './index.php';
  ```
 
  Pronto! Já pode utlizar todas as funções disponíveis.
