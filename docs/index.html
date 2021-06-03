@@ -31,7 +31,14 @@
         </ul>
       </nav>
       <br>
-      <p>Procurar tópico <input type="search" name="proc" id="proc" style="width: 200px; margin-left: 25px;" placeholder="Procurar"> <button class="btn-floating light-blue"><i class="fa fa-search"></i></button></p>
+      <form id="searchbox">
+      <p>Procurar tópico <input type="search" name="proc" id="proc" style="width: 200px; margin-left: 25px;" placeholder="Procurar" list="s"> <button class="btn-floating light-blue" onclick="searchTopic()"><i class="fa fa-search"></i></button></p>
+      <datalist id="s">
+        <option value="Sobre"></option>
+        <option value="Contatos"></option>
+        <option value="Downloads"></option>
+      </datalist>
+      </form>
       <br>
       <hr>
       <main class="content s12 m6 push-m3 light" style="margin-left: 75px;">
@@ -114,5 +121,6 @@
         <p>© Los-had 2021 todos os direitos reservados.</p>
       </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
