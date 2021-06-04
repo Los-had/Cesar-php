@@ -31,6 +31,7 @@ function cesar($string, $nivel) {
     return $r;
 }
 
+// está função faz a criptografia com base na tabela ASCII(Uso recomendado apesar de algumas incompatibilidades)
 function cesar_ascii($ut, $cam) {
     $txt = $ut;
     $ftxt = '';
