@@ -1,5 +1,7 @@
 # Cesar-php
  criptografia na cifra de César apenas com pequenas funções.
+ 
+ ***OBS: ESTE README ESTÁ DESATUALIZADO! ENTRE NO [SITE OFICIAL](https://los-had.github.io/Cesar-php/) PARA VER A VERSÃO ATUALIZADA!***
 
 ## Como utilizar
  Aqui veremos como utilizar essas funções(Com exemplos em código).
