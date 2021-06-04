@@ -34,15 +34,9 @@ body{
 
 h1.errorbanner{
     margin-left: 400px;
-    display: inline;
 }
 
-main.content{
-    border: 3px 3px;
-    border-color: gray;
-    border-radius: 5% 5%;
-    display: inline;
+div.content{
     width: 800px;
     height: 550px;
-    margin: auto   ;
 }
