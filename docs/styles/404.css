@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@keyframes bckanimation {
+    0% {
+        background-image: linear-gradient(to left, blue, darkblue);
+    }
+    25% {
+        background-image: linear-gradient(to left, rgb(48, 48, 119), rgb(25, 25, 139));
+    }
+    50% {
+        background-image: linear-gradient(to left, rgb(62, 62, 100), rgb(60, 60, 143));
+    }
+    75% {
+        background-image: linear-gradient(to left, rgb(83, 83, 129), rgb(7, 7, 78));
+    }
+    100% {
+        background-image: linear-gradient(to left, rgb(95, 95, 126), rgb(8, 8, 97));
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: consolas, Arial, Helvetica, sans-serif;
+}
+
+body{
+    animation-name: bckanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1.errorbanner{
+    margin-left: 400px;
+    display: inline;
+}
+
+main.content{
+    border: 3px 3px;
+    border-color: gray;
+    border-radius: 5% 5%;
+    display: inline;
+    width: 800px;
+    height: 550px;
+    margin: auto   ;
+}
