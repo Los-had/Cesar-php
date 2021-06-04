@@ -15,5 +15,3 @@ function cesar_crack($ut) {
         echo $ftxt . "<br>";
     }
 }
-
-echo cesar_crack('rl');
