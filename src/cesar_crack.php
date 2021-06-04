@@ -1,5 +1,6 @@
 <?php
 
+// está função é diferente pois usa a tabela ascii.
 function cesar_crack_ascii($ut) {
     $txt = $ut;
     $ftxt = '';
@@ -15,6 +16,7 @@ function cesar_crack_ascii($ut) {
     }
 }
 
+// está função não usa a tabela ascii (uso recomendado).
 function cesar_crack($string) {
     for ($nivel = 0; $nivel <= 26; $nivel++) {
         $m[] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -47,5 +49,3 @@ function cesar_crack($string) {
         echo $r . "<br>";
     }
 }
-
-cesar_crack('rl');
