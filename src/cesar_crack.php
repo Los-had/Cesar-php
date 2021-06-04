@@ -1,6 +1,6 @@
 <?php
 
-// está função é diferente pois usa a tabela ascii.
+// está função é diferente pois usa a tabela ascii. O uso dessa função só recomendado para decodificar mensagens com caracteres especiais, acentos e etc
 function cesar_crack_ascii($ut) {
     $txt = $ut;
     $ftxt = '';
